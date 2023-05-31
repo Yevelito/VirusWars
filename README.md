@@ -30,4 +30,4 @@ Build with maven command:
 ``mvn build``
 
 <h3>Run</h3>
-You need to Main
+Just execute VirusWars.exe file.
