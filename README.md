@@ -1,25 +1,27 @@
 <h1>Virus Wars</h1>
-Simple game with GUI.
-
 <h3>Description</h3>
 
-This is a simple GUI game where you play against an algorithm.
+This is a Symbol Conquest Game where you play against the computer.
 
-In each round, the player has three moves. When a player makes a move, the cell receives the player's symbol.
+Rules:\
+1️⃣ Each round consists of three moves for each player.\
+2️⃣ Players take turns making their moves.\
+3️⃣ When a player makes a move, their symbol is placed in the corresponding cell.\
+4️⃣ If a player steps on a cell that already has the opponent's symbol, the cell is painted in the player's color, permanently becoming the player's cell. The opponent can no longer step on it.\
+5️⃣ A player can only move to a cell adjacent to their own symbol.\
+6️⃣ The game ends when one of the players runs out of moves.
 
-If a player steps on a cell that already has the opponent's symbol, the cell is painted in the player's color, becoming the player's cell forever. The opponent can no longer step on it.
 
-A player can only move to a cell adjacent to their own.
-
-The game ends when one of the players runs out of moves.
-
+<h4>Symbols:</h4>
+Player: ❌️\
+Computer: ⭕
 
 ![game_screen](screenshots/Virus_wars_screen.png)
 
 
 <h3>Technologies:</h3>
-- java core;
-- gui: Swing;
+- Java core;
+- Swing;
 - Maven.
 
 <h3>Building</h3>
@@ -30,4 +32,4 @@ Build with maven command:
 ``mvn build``
 
 <h3>Run</h3>
-Just execute VirusWars.exe file.
+Build and execute VirusWars.exe file.
